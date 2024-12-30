@@ -1,4 +1,4 @@
-<h1 style="font-size: 36px; text-align: center; color: #4CAF50;">Python Algorithms and Projects</h1>
+<h1 style="font-size: 36px; text-align: center; color: #4CAF50;"> Code Practice</h1>
 
 <p style="font-size: 18px;">This project showcases a variety of <strong>algorithms</strong> and practical programming exercises that I have worked on to enhance my Python skills. It includes implementations of classic algorithms such as <strong>Bubble Sort</strong>, <strong>Binary Search</strong>, as well as <strong>web scraping</strong> examples and other algorithmic exercises.</p>
 
