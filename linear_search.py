@@ -2,14 +2,14 @@ import unittest
 
 class Solution:
     def linear_search(self, arr: list[int], target: int) -> int:
-        """
-        Performs a linear search on a list and returns the index of the target value.
-        If the target is not found, it returns -1.
+       """
+        執行線性搜索，並返回目標值的索引。
+        如果未找到目標值，則返回 -1。
         
-        :param arr: The list to search through
-        :param target: The value to search for
-        :return: The index of the target value, or -1 if not found
-        """
+        :param arr: 要進行搜尋的列表
+        :param target: 要搜尋的目標值
+        :return: 目標值的索引，如果未找到則返回 -1
+       """
         for i in range(len(arr)):
             if arr[i] == target:
                 return i  # Return the index when the target is found
