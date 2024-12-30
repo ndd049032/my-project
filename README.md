@@ -16,8 +16,13 @@ Web Scraping:
 Web scraping of products or other data from a website using Python (e.g., extracting product prices, availability, etc.).
 
 Technologies Used
+
 Python
+
 Selenium (for web scraping)
+
 Matplotlib (for visualizations)
+
 unittest (for testing)
+
 Other relevant libraries
