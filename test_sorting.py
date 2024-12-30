@@ -3,6 +3,13 @@ import matplotlib.pyplot as plt
 import unittest
 
 def bubble_sort(arr, update_func):
+    """
+    使用冒泡排序演算法對列表進行排序。
+    每當交換元素時，會調用 `update_func` 來更新可視化。
+
+    :param arr: 要排序的數字列表 (list[int])
+    :param update_func: 用來更新排序過程中可視化的函數 (function)
+    """
     n = len(arr)
     for i in range(n):
         for j in range(0, n-i-1):
