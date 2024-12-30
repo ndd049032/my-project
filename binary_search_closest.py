@@ -1,6 +1,14 @@
 import unittest
 class Solution:
     def search_closest(self, nums: list[int], target: int) -> int:
+         """
+        搜尋一個有序數列中最接近目標值的數字。
+        如果目標值存在，則直接返回該數字；如果目標值不在數列中，則返回小於目標值且最接近的數字。
+        
+        :param nums: 要搜尋的有序數列
+        :param target: 目標值
+        :return: 返回目標值或最接近目標值的數字
+        """
         if not nums:
             return None
         if target < nums[0]:
