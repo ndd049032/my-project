@@ -8,8 +8,10 @@ Key Features
 
 Sorting Algorithms:
 Bubble Sort: Implemented with real-time visualization to show the sorting process.
+
 Search Algorithms:
 Binary Search: Efficient search for the closest number in a sorted list.
+
 Web Scraping:
 Web scraping of products or other data from a website using Python (e.g., extracting product prices, availability, etc.).
 
